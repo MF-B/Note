@@ -167,18 +167,19 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "3c4329f70a5451f4",
   "lastOpenFiles": [
-    "Zettelkasten/scheduler.md",
     "Zettelkasten/bump.md",
+    "Zettelkasten/Prisoner's Dilemma囚徒困境.md",
+    "Zettelkasten/scheduler.md",
     "Templates/MOC.md",
     "Templates/Core Zettel idea.md",
     "New Text Document.txt",
     "Zettelkasten/os driver.md",
-    "Zettelkasten/Prisoner's Dilemma囚徒困境.md",
     "Zettelkasten/OS.md",
     "Zettelkasten/Game Theory博弈论.md",
     "Zettelkasten/网络.md",
