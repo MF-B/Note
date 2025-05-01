@@ -151,13 +151,23 @@
               "icon": "lucide-list",
               "title": "scheduler 的大纲"
             }
+          },
+          {
+            "id": "9b4bccc02727bdd8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,7 +178,8 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "3c4329f70a5451f4",
