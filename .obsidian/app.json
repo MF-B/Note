@@ -5,5 +5,6 @@
   "showInlineTitle": false,
   "focusNewTab": true,
   "alwaysUpdateLinks": true,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "spellcheck": false
 }
