@@ -9,7 +9,6 @@ Tags: [[Game Theory博弈论]]
 ## 有趣的结论
 善意策略有更大的生存机会
 
-test git second
 
 ___
 # References
