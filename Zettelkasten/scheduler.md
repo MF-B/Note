@@ -29,3 +29,4 @@ fn handler_irq(irq_num: usize) -> bool {
 
 ___
 # References
+ArceOS ppt
