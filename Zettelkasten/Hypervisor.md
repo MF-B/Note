@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 2025-05-03
 Status: #idea
 Tags: [[OS Camp Stage 3]]

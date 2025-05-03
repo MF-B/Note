@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 2025-05-03
 Status: #idea
 Tags: [[Linux]],[[OS Camp Stage 3]]
