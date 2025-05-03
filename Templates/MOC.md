@@ -1,4 +1,4 @@
-{{date:YYYYMMDD}}{{time:HHmm}}
+{{date:YYYY-MM-DD}}
 Status: #MOC
 Tags: 
 

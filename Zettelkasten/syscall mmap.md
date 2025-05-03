@@ -1,6 +1,6 @@
-202505031828
+2025-05-03
 Status: #idea
-Tags: [[Linux]],[[OS]]
+Tags: [[Linux]],[[OS Camp Stage 3]]
 
 # syscall mmap
 作用是映射文件到一个虚拟地址空间里

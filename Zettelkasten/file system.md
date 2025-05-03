@@ -1,6 +1,6 @@
-202505021030
+2025-05-02
 Status: #idea
-Tags: [[OS]]
+Tags: [[OS Camp Stage 3]]
 
 # file system
 ## ArceOS

@@ -1,6 +1,6 @@
-202504301659
+2025-04-30
 Status: #idea
-Tags: [[OS]]
+Tags: [[OS Camp Stage 3]]
 
 # scheduler
 ## ArceOS调度原理

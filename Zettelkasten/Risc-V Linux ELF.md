@@ -1,4 +1,4 @@
-202505031735
+2025-05-03
 Status: #idea
 Tags: [[Linux]],[[Risc-V]]
 

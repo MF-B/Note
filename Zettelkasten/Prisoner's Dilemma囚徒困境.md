@@ -1,4 +1,4 @@
-202504302310
+2025-04-30
 Status: #idea
 Tags: [[Game Theory博弈论]]
 
