@@ -6,8 +6,8 @@ Status: #MOC
 Tags: [[OS Camp]]
 
 # OS Camp Stage 3
+## 感想
 
-阶段三的学习是从4月30日开始
 
 ## 学习记录
 - [[bump|Bump内存分配算法]]
