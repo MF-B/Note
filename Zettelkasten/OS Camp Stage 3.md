@@ -20,6 +20,7 @@ Tags: [[OS Camp]]
 - [[scheduler|调度器]]
 - [[syscall mmap|系统调用mmap实现]]
 - [[Hypervisor|Hypervisor]]
+- [[挑战题目]]
 
 
 ___

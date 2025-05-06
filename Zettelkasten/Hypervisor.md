@@ -6,8 +6,14 @@ Status: #idea
 Tags: [[OS Camp Stage 3]]
 
 # Hypervisor
-## VmCpuRegisters
-
+## 页表相关
+Host主机使用hgatp来设置页表基址
+hgatp: 
+![[Pasted image 20250504214618.png]]
+### 地址转换流程
+1. Guest虚拟地址--通过vsatp转换-->Guest物理地址
+2. Guest物理地址--通过hgatp转换-->Host物理地址
+2会发生在Guest发生页表访问错误时出现
 
 ## ArceOS exercise
 ### simple_hv
