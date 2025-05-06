@@ -3,7 +3,7 @@ dg-publish: true
 ---
 2025-05-05
 Status: #idea
-Tags: [[挑战题目]]
+Tags: [[os challenge]]
 
 # challenge lab1_3_tlfs
 ```rust
