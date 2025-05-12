@@ -8,7 +8,8 @@ Tags: [[OS Camp]]
 # ArceOS宏内核
 ## 内容导览
 
-- [[signal for starry-next]] - 为starry-next支持信号
+- [[Save FP_STATE for loongarch]] - 为arceos-loongarch提供浮点特性支持
+- [[signal for starry-next]] - 尝试为starry-next支持信号
 - [[resource limits]] - 获取和设置进程的资源限制
 ## 参考资料
 [共享资源-清华云盘](https://cloud.tsinghua.edu.cn/d/0520e62918c74c509b66/)
