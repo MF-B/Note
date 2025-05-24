@@ -10,83 +10,107 @@ Tags: [[Readme]]
 ![[微信图片_20250516142239.png]]
 dnf install wget
 
-1. python
-	1. dnf
-2. bitsandbytes
+- python
+	1. dnf install python
+- bitsandbytes
 	1. dnf install openblas
 	2. pip
-3. transformers
+- transformers
 	1. pip
-4. ftfy
+- ftfy
 	1. pip
-5. regex
+- regex
 	1. pip
-6. einops
+- einops
 	1. pip
-7. fvcore
+- fvcore
 	1. dnf install libjpeg-devel zlib-devel libpng-devel
 	2. pip 
-8. iopath
+- iopath
 	1. pip
-9. matplotlib
+- matplotlib
 	1. pip
-10. numpy
+- numpy
 	1. pip
-11. moviepy
+- moviepy
 	1. pip
-12. types-regex
+- types-regex
 	1. pip
-13. neo4j
+- neo4j
 	1. pip
-14. hnswlib
+- hnswlib
 	1. pip
-15. xxhash
+- xxhash
 	1. pip
-16. nano-vectordb
+- nano-vectordb
 	1. pip
-17. tenacity
+- tenacity
 	1. pip
-18. langchain
+- langchain
 	1. dnf install libffi-devel
 	2. pip
-19. langchain-core
+- langchain-core
 	1. pip
-20. langchain-text-splitters
+- langchain-text-splitters
 	1. pip
-21. langchain-community
+- langchain-community
 	1. pip
-22. langchain-openai
+- langchain-openai
 	1. pip
-23. volcengine
-	1. pi
-24. torch
-25. torch-version
-26. torch-audio
-27. eva-decord
-	1. dnf install ffmpeg ffmpeg-devel
-	2. git clone --recursive https://github.com/zhanwenchen/decord.git
-	3. mkdir build & cd build
-	4. cmake .. -DUSE_CUDA=0 -DCMAKE_BUILD_TYPE=Release
-	5. make
-	6. cd ../python && python3 setup.py install
-28. ctranslate2
-	1. git clone --recursive https://github.com/OpenNMT/CTranslate2.git
-	2. cd CTranslate2
-	3. mkdir build && cd build
-	4. cmake .. -DOPENMP_RUNTIME=COMP -DENABLE_CPU_DISPATCH=OFF
-	5. make -j4
-	6. sudo make install
-	7. sudo ldconfig
-	8. cd ../python
-	9. pip install -r install_requirements.txt
-	10. python setup.py bdist_wheel
-	11. pip install dist/*.whl
-29. milvus-lite
-	1. 
-30. accelerate
-31. timm
-32. pymilvus
-33. langchain-milvus
+- volcengine
+	1. pip
+- torch
+```bash
+dnf install musl
+
+git clone https://github.com/pytorch/pytorch
+cd pytorch
+# if you are updating an existing checkout
+git submodule sync
+git submodule update --init --recursive
+
+export USE_CUDA=0 # RISC-V架构服务器无法使用CUDA
+export USE_DISTRIBUTED=0 # 不支持分布式
+export USE_MKLDNN=0 # 并非英特尔处理器，故不支持MKL
+export MAX_JOBS=5 # 编译进程数，根据自己实际需求进行更改
+python3 setup.py develop --cmake
+
+```
+- torch-version
+- torch-audio
+- eva-decord
+```bash
+dnf install ffmpeg ffmpeg-devel
+# git clone --recursive https://github.com/zhanwenchen/decord.git
+git clone --recursive https://github.com/MF-B/eva-decord.git
+cd eva-decord
+mkdir build
+cd build
+cmake .. -DUSE_CUDA=0 -DCMAKE_BUILD_TYPE=Release
+make
+cd ../python && python3 setup.py install
+```
+- ctranslate2
+```bash
+git clone --recursive https://github.com/OpenNMT/CTranslate2.git
+cd CTranslate2
+mkdir build && cd build
+cmake .. -DOPENMP_RUNTIME=COMP -DENABLE_CPU_DISPATCH=OFF
+make -j4
+sudo make install
+sudo ldconfig
+cd ../python
+pip install -r install_requirements.txt
+python setup.py bdist_wheel
+pip install dist/*.whl
+```
+
+- milvus-lite
+	1. pip install -U pymilvus
+- accelerate
+- timm
+- pymilvus
+- langchain-milvus
 ## [PyTorch构建](https://github.com/pytorch/pytorch#from-source)
 1. python
 	- version >=3.9
