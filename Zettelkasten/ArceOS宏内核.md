@@ -11,6 +11,7 @@ Tags: [[OS Camp]]
 - [[Save FP_STATE for loongarch]] - 为arceos-loongarch提供浮点特性支持
 - ~~[[signal for starry-next]] - 尝试为starry-next支持信号~~
 - [[vDSO]] - 尝试支持vDSO
+- [[OS-Competition]] - 大赛支持
 ## 参考资料
 [共享资源-清华云盘](https://cloud.tsinghua.edu.cn/d/0520e62918c74c509b66/)
 [任务列表&在线讨论网址](https://github.com/oscomp/starry-next/discussions/40)  

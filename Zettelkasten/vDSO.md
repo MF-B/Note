@@ -8,8 +8,11 @@ Tags: [[ArceOS宏内核]]
 # vDSO
 ## 分析
 ### 星绽Asterinas
-- map_vdso_to_vm方法通过vdso_vmo方法获取vdso内容，获取vdso_text_base并将其写入进程的辅助向量中
-- 
+#### 映射
+进程创建时通过`map_vdso_to_vm`将vDSO文件映射到进程虚拟内存
+设置进程的aux_vec指向AT_SYSINFO_EHDR指向vDSO文件的ELF头
+#### 内容
+Asterinas使用预制的vdso.so
 
 ## 原理
 
